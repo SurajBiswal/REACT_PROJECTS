@@ -28,7 +28,7 @@ function Login() {
         }}
         placeholder="password"
       />
-      <button>Submit</button>
+      <button onClick={handleSubmit}>Submit</button>
     </div>
   );
 }
